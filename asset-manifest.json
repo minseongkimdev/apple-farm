@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/apple-farm/static/css/main.0ada6175.chunk.css",
+    "main.js": "/apple-farm/static/js/main.7b79b0cd.chunk.js",
+    "main.js.map": "/apple-farm/static/js/main.7b79b0cd.chunk.js.map",
+    "runtime-main.js": "/apple-farm/static/js/runtime-main.747db326.js",
+    "runtime-main.js.map": "/apple-farm/static/js/runtime-main.747db326.js.map",
+    "static/js/2.4d0fff6c.chunk.js": "/apple-farm/static/js/2.4d0fff6c.chunk.js",
+    "static/js/2.4d0fff6c.chunk.js.map": "/apple-farm/static/js/2.4d0fff6c.chunk.js.map",
+    "index.html": "/apple-farm/index.html",
+    "static/css/main.0ada6175.chunk.css.map": "/apple-farm/static/css/main.0ada6175.chunk.css.map",
+    "static/js/2.4d0fff6c.chunk.js.LICENSE.txt": "/apple-farm/static/js/2.4d0fff6c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.747db326.js",
+    "static/js/2.4d0fff6c.chunk.js",
+    "static/css/main.0ada6175.chunk.css",
+    "static/js/main.7b79b0cd.chunk.js"
+  ]
+}
