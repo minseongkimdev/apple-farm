@@ -9,7 +9,7 @@ function App() {
             {/* Route에는 두개의 Props가 들어간다 */}
             <Navigation />
             <Route path="/" exact={true} component={Home} />
-            <Route path="/detail" component={Detail} />
+            <Route path="/movie-detail/:id" component={Detail} />
         </HashRouter>
     )
 }
