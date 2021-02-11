@@ -9,8 +9,13 @@ import wrapper from '../store/configureStore';
 import 'react-quill/dist/quill.snow.css';
 
 
+
+
+
+// app의 부모
+const App = ({ Component }) => {
 // For Firebase JavaScript SDK v7.20.0 and later, `measurementId` is an optional field
-const firebaseConfig = {
+    const firebaseConfig = {
     apiKey: "AIzaSyDqhNMNyRB8csBSE2zWIu6FuBjRB8b-VU0",
     authDomain: "apple-farm-8c999.firebaseapp.com",
     projectId: "apple-farm-8c999",
@@ -20,11 +25,8 @@ const firebaseConfig = {
     measurementId: "G-M0R4G2Z3BX"
     };
 
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-
-// app의 부모
-const App = ({ Component }) => {
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
     return (
         <>
             {/* next 6버전부터는 provider가 안들어 간다. */}
